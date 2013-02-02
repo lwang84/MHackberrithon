@@ -7,12 +7,13 @@
 //
 
 #import "MHCameraController.h"
+#import "MHOverlayView.h"
+#import <MobileCoreServices/UTCoreTypes.h>
 
-@interface MHCameraController ()
-
-@end
 
 @implementation MHCameraController
+
+//@synthesize picker;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,7 +27,38 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+}
+
+- (void) viewDidAppear:(BOOL)animated {
+
+    MHOverlayView *overlay = [[MHOverlayView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGTH)];
+	
+	// Create a new image picker instance:
+	UIImagePickerController *picker = [[UIImagePickerController alloc] init];
+    //picker.delegate = self;
+	
+	// Set the image picker source:
+	picker.sourceType = UIImagePickerControllerSourceTypeCamera;
+    
+    picker.mediaTypes = @[(NSString *) kUTTypeImage,(NSString *) kUTTypeMovie];
+    
+    picker.allowsEditing = YES;
+	
+	// Hide the controls:
+	picker.showsCameraControls = NO;
+	picker.navigationBarHidden = YES;
+	
+	// Make camera view full screen:
+	picker.wantsFullScreenLayout = YES;
+	picker.cameraViewTransform = CGAffineTransformScale(picker.cameraViewTransform, CAMERA_TRANSFORM_X, CAMERA_TRANSFORM_Y);
+	
+	// Insert the overlay:
+	picker.cameraOverlayView = overlay;
+	
+	//[self presentModalViewController:picker animated:YES];
+    [self presentViewController:picker animated:NO completion:nil];
+    [super viewDidAppear:YES];
+	
 }
 
 - (void)didReceiveMemoryWarning

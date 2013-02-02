@@ -24,6 +24,13 @@
 		430AA1C616BCCEE10064D0DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 430AA1C416BCCEE10064D0DA /* InfoPlist.strings */; };
 		430AA1C916BCCEE10064D0DA /* MHackberrithonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 430AA1C816BCCEE10064D0DA /* MHackberrithonTests.m */; };
 		430AA1D416BCD0490064D0DA /* MHCameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = 430AA1D316BCD0490064D0DA /* MHCameraController.m */; };
+		FCCEAAD316BCD40900317762 /* MHOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCEAAD216BCD40900317762 /* MHOverlayView.m */; };
+		FCCEAAE816BCE40700317762 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCCEAAE716BCE40700317762 /* MobileCoreServices.framework */; };
+		FCCEAAEF16BCE4FB00317762 /* OverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCEAAEA16BCE4FB00317762 /* OverlayView.m */; };
+		FCCEAAF016BCE4FB00317762 /* OverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCEAAEC16BCE4FB00317762 /* OverlayViewController.m */; };
+		FCCEAAF116BCE4FB00317762 /* ScanButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCEAAEE16BCE4FB00317762 /* ScanButton.m */; };
+		FCCEAAF416BCE53D00317762 /* overlaygraphic.png in Resources */ = {isa = PBXBuildFile; fileRef = FCCEAAF216BCE53D00317762 /* overlaygraphic.png */; };
+		FCCEAAF516BCE53D00317762 /* scanbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = FCCEAAF316BCE53D00317762 /* scanbutton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +68,17 @@
 		430AA1C816BCCEE10064D0DA /* MHackberrithonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHackberrithonTests.m; sourceTree = "<group>"; };
 		430AA1D216BCD0490064D0DA /* MHCameraController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHCameraController.h; sourceTree = "<group>"; };
 		430AA1D316BCD0490064D0DA /* MHCameraController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHCameraController.m; sourceTree = "<group>"; };
+		FCCEAAD116BCD40900317762 /* MHOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHOverlayView.h; sourceTree = "<group>"; };
+		FCCEAAD216BCD40900317762 /* MHOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHOverlayView.m; sourceTree = "<group>"; };
+		FCCEAAE716BCE40700317762 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		FCCEAAE916BCE4FA00317762 /* OverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayView.h; sourceTree = "<group>"; };
+		FCCEAAEA16BCE4FB00317762 /* OverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayView.m; sourceTree = "<group>"; };
+		FCCEAAEB16BCE4FB00317762 /* OverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayViewController.h; sourceTree = "<group>"; };
+		FCCEAAEC16BCE4FB00317762 /* OverlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayViewController.m; sourceTree = "<group>"; };
+		FCCEAAED16BCE4FB00317762 /* ScanButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanButton.h; sourceTree = "<group>"; };
+		FCCEAAEE16BCE4FB00317762 /* ScanButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanButton.m; sourceTree = "<group>"; };
+		FCCEAAF216BCE53D00317762 /* overlaygraphic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overlaygraphic.png; sourceTree = "<group>"; };
+		FCCEAAF316BCE53D00317762 /* scanbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scanbutton.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCCEAAE816BCE40700317762 /* MobileCoreServices.framework in Frameworks */,
 				430AA19816BCCEE10064D0DA /* UIKit.framework in Frameworks */,
 				430AA19A16BCCEE10064D0DA /* Foundation.framework in Frameworks */,
 				430AA19C16BCCEE10064D0DA /* CoreGraphics.framework in Frameworks */,
@@ -90,6 +109,9 @@
 		430AA18816BCCEE10064D0DA = {
 			isa = PBXGroup;
 			children = (
+				FCCEAAF216BCE53D00317762 /* overlaygraphic.png */,
+				FCCEAAF316BCE53D00317762 /* scanbutton.png */,
+				FCCEAAE716BCE40700317762 /* MobileCoreServices.framework */,
 				430AA19D16BCCEE10064D0DA /* MHackberrithon */,
 				430AA1C116BCCEE10064D0DA /* MHackberrithonTests */,
 				430AA19616BCCEE10064D0DA /* Frameworks */,
@@ -125,9 +147,17 @@
 				430AA1AF16BCCEE10064D0DA /* MainStoryboard.storyboard */,
 				430AA1B216BCCEE10064D0DA /* MHViewController.h */,
 				430AA1B316BCCEE10064D0DA /* MHViewController.m */,
-				430AA19E16BCCEE10064D0DA /* Supporting Files */,
 				430AA1D216BCD0490064D0DA /* MHCameraController.h */,
 				430AA1D316BCD0490064D0DA /* MHCameraController.m */,
+				FCCEAAD116BCD40900317762 /* MHOverlayView.h */,
+				FCCEAAD216BCD40900317762 /* MHOverlayView.m */,
+				FCCEAAE916BCE4FA00317762 /* OverlayView.h */,
+				FCCEAAEA16BCE4FB00317762 /* OverlayView.m */,
+				FCCEAAEB16BCE4FB00317762 /* OverlayViewController.h */,
+				FCCEAAEC16BCE4FB00317762 /* OverlayViewController.m */,
+				FCCEAAED16BCE4FB00317762 /* ScanButton.h */,
+				FCCEAAEE16BCE4FB00317762 /* ScanButton.m */,
+				430AA19E16BCCEE10064D0DA /* Supporting Files */,
 			);
 			path = MHackberrithon;
 			sourceTree = "<group>";
@@ -242,6 +272,8 @@
 				430AA1AC16BCCEE10064D0DA /* Default@2x.png in Resources */,
 				430AA1AE16BCCEE10064D0DA /* Default-568h@2x.png in Resources */,
 				430AA1B116BCCEE10064D0DA /* MainStoryboard.storyboard in Resources */,
+				FCCEAAF416BCE53D00317762 /* overlaygraphic.png in Resources */,
+				FCCEAAF516BCE53D00317762 /* scanbutton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +312,10 @@
 				430AA1A816BCCEE10064D0DA /* MHAppDelegate.m in Sources */,
 				430AA1B416BCCEE10064D0DA /* MHViewController.m in Sources */,
 				430AA1D416BCD0490064D0DA /* MHCameraController.m in Sources */,
+				FCCEAAD316BCD40900317762 /* MHOverlayView.m in Sources */,
+				FCCEAAEF16BCE4FB00317762 /* OverlayView.m in Sources */,
+				FCCEAAF016BCE4FB00317762 /* OverlayViewController.m in Sources */,
+				FCCEAAF116BCE4FB00317762 /* ScanButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +421,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MHackberrithon/MHackberrithon-Prefix.pch";
 				INFOPLIST_FILE = "MHackberrithon/MHackberrithon-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -396,6 +433,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MHackberrithon/MHackberrithon-Prefix.pch";
 				INFOPLIST_FILE = "MHackberrithon/MHackberrithon-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -454,6 +492,7 @@
 				430AA1CE16BCCEE10064D0DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		430AA1CF16BCCEE10064D0DA /* Build configuration list for PBXNativeTarget "MHackberrithonTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +501,7 @@
 				430AA1D116BCCEE10064D0DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

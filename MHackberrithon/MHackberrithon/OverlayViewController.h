@@ -1,9 +1,9 @@
 //
-//  MHCameraController.h
-//  MHackberrithon
+//  OverlayViewController.h
+//  OverlayViewTester
 //
-//  Created by Lingyong Wang on 2/1/13.
-//  Copyright (c) 2013 Hackberry. All rights reserved.
+//  Created by Jason Job on 09-12-10.
+//  Copyright 2009 Jason Job. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -17,8 +17,9 @@
 #define SCREEN_WIDTH  320
 #define SCREEN_HEIGTH 480
 
-@interface MHCameraController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+@interface OverlayViewController : UIViewController {
 
-//@property (nonatomic, strong) UIImagePickerController *picker;
+}
+
 
 @end

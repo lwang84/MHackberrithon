@@ -7,6 +7,7 @@
 //
 
 #import "MHViewController.h"
+#import "MHOverlayView.h"
 
 @interface MHViewController ()
 
