@@ -27,6 +27,7 @@
 		430AA32316BCEE450064D0DA /* liblept.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 430AA32116BCEE450064D0DA /* liblept.a */; };
 		430AA32416BCEE450064D0DA /* libtesseract_all.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 430AA32216BCEE450064D0DA /* libtesseract_all.a */; };
 		430AA32816BCEE500064D0DA /* Tesseract.mm in Sources */ = {isa = PBXBuildFile; fileRef = 430AA32716BCEE500064D0DA /* Tesseract.mm */; };
+		FC926AA316BCF53E00D8EF00 /* MHImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC926AA216BCF53E00D8EF00 /* MHImagePickerController.m */; };
 		FCCEAAD316BCD40900317762 /* MHOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCEAAD216BCD40900317762 /* MHOverlayView.m */; };
 		FCCEAAE816BCE40700317762 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCCEAAE716BCE40700317762 /* MobileCoreServices.framework */; };
 		FCCEAAEF16BCE4FB00317762 /* OverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCEAAEA16BCE4FB00317762 /* OverlayView.m */; };
@@ -220,6 +221,8 @@
 		430AA32216BCEE450064D0DA /* libtesseract_all.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtesseract_all.a; sourceTree = "<group>"; };
 		430AA32616BCEE500064D0DA /* Tesseract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tesseract.h; sourceTree = "<group>"; };
 		430AA32716BCEE500064D0DA /* Tesseract.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Tesseract.mm; sourceTree = "<group>"; };
+		FC926AA116BCF53E00D8EF00 /* MHImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHImagePickerController.h; sourceTree = "<group>"; };
+		FC926AA216BCF53E00D8EF00 /* MHImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHImagePickerController.m; sourceTree = "<group>"; };
 		FCCEAAD116BCD40900317762 /* MHOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHOverlayView.h; sourceTree = "<group>"; };
 		FCCEAAD216BCD40900317762 /* MHOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHOverlayView.m; sourceTree = "<group>"; };
 		FCCEAAE716BCE40700317762 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
@@ -308,6 +311,8 @@
 				430AA1B316BCCEE10064D0DA /* MHViewController.m */,
 				430AA1D216BCD0490064D0DA /* MHCameraController.h */,
 				430AA1D316BCD0490064D0DA /* MHCameraController.m */,
+				FC926AA116BCF53E00D8EF00 /* MHImagePickerController.h */,
+				FC926AA216BCF53E00D8EF00 /* MHImagePickerController.m */,
 				FCCEAAD116BCD40900317762 /* MHOverlayView.h */,
 				FCCEAAD216BCD40900317762 /* MHOverlayView.m */,
 				FCCEAAE916BCE4FA00317762 /* OverlayView.h */,
@@ -672,6 +677,7 @@
 				FCCEAAF016BCE4FB00317762 /* OverlayViewController.m in Sources */,
 				FCCEAAF116BCE4FB00317762 /* ScanButton.m in Sources */,
 				430AA32816BCEE500064D0DA /* Tesseract.mm in Sources */,
+				FC926AA316BCF53E00D8EF00 /* MHImagePickerController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
