@@ -23,6 +23,7 @@
 		430AA1BE16BCCEE10064D0DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 430AA19916BCCEE10064D0DA /* Foundation.framework */; };
 		430AA1C616BCCEE10064D0DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 430AA1C416BCCEE10064D0DA /* InfoPlist.strings */; };
 		430AA1C916BCCEE10064D0DA /* MHackberrithonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 430AA1C816BCCEE10064D0DA /* MHackberrithonTests.m */; };
+		430AA1D416BCD0490064D0DA /* MHCameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = 430AA1D316BCD0490064D0DA /* MHCameraController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		430AA1C516BCCEE10064D0DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		430AA1C716BCCEE10064D0DA /* MHackberrithonTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHackberrithonTests.h; sourceTree = "<group>"; };
 		430AA1C816BCCEE10064D0DA /* MHackberrithonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHackberrithonTests.m; sourceTree = "<group>"; };
+		430AA1D216BCD0490064D0DA /* MHCameraController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHCameraController.h; sourceTree = "<group>"; };
+		430AA1D316BCD0490064D0DA /* MHCameraController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHCameraController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +126,8 @@
 				430AA1B216BCCEE10064D0DA /* MHViewController.h */,
 				430AA1B316BCCEE10064D0DA /* MHViewController.m */,
 				430AA19E16BCCEE10064D0DA /* Supporting Files */,
+				430AA1D216BCD0490064D0DA /* MHCameraController.h */,
+				430AA1D316BCD0490064D0DA /* MHCameraController.m */,
 			);
 			path = MHackberrithon;
 			sourceTree = "<group>";
@@ -274,6 +279,7 @@
 				430AA1A416BCCEE10064D0DA /* main.m in Sources */,
 				430AA1A816BCCEE10064D0DA /* MHAppDelegate.m in Sources */,
 				430AA1B416BCCEE10064D0DA /* MHViewController.m in Sources */,
+				430AA1D416BCD0490064D0DA /* MHCameraController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
