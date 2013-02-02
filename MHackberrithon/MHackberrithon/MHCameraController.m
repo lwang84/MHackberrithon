@@ -7,7 +7,7 @@
 //
 
 #import "MHCameraController.h"
-#import "MHOverlayView.h"
+#import "OverlayView.h"
 #import <MobileCoreServices/UTCoreTypes.h>
 
 
@@ -31,7 +31,7 @@
 
 - (void) viewDidAppear:(BOOL)animated {
 
-    MHOverlayView *overlay = [[MHOverlayView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGTH)];
+    OverlayView *overlay = [[OverlayView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGTH)];
 	
 	// Create a new image picker instance:
 	UIImagePickerController *picker = [[UIImagePickerController alloc] init];

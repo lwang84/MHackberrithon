@@ -31,6 +31,8 @@
 		FCCEAAF116BCE4FB00317762 /* ScanButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCEAAEE16BCE4FB00317762 /* ScanButton.m */; };
 		FCCEAAF416BCE53D00317762 /* overlaygraphic.png in Resources */ = {isa = PBXBuildFile; fileRef = FCCEAAF216BCE53D00317762 /* overlaygraphic.png */; };
 		FCCEAAF516BCE53D00317762 /* scanbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = FCCEAAF316BCE53D00317762 /* scanbutton.png */; };
+		FCCEAAF816BCECA600317762 /* eng.traineddata in Resources */ = {isa = PBXBuildFile; fileRef = FCCEAAF616BCECA600317762 /* eng.traineddata */; };
+		FCCEAAF916BCECA600317762 /* sample1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FCCEAAF716BCECA600317762 /* sample1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +81,8 @@
 		FCCEAAEE16BCE4FB00317762 /* ScanButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanButton.m; sourceTree = "<group>"; };
 		FCCEAAF216BCE53D00317762 /* overlaygraphic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overlaygraphic.png; sourceTree = "<group>"; };
 		FCCEAAF316BCE53D00317762 /* scanbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scanbutton.png; sourceTree = "<group>"; };
+		FCCEAAF616BCECA600317762 /* eng.traineddata */ = {isa = PBXFileReference; lastKnownFileType = file; path = eng.traineddata; sourceTree = "<group>"; };
+		FCCEAAF716BCECA600317762 /* sample1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +114,8 @@
 			isa = PBXGroup;
 			children = (
 				FCCEAAF216BCE53D00317762 /* overlaygraphic.png */,
+				FCCEAAF616BCECA600317762 /* eng.traineddata */,
+				FCCEAAF716BCECA600317762 /* sample1.jpg */,
 				FCCEAAF316BCE53D00317762 /* scanbutton.png */,
 				FCCEAAE716BCE40700317762 /* MobileCoreServices.framework */,
 				430AA19D16BCCEE10064D0DA /* MHackberrithon */,
@@ -274,6 +280,8 @@
 				430AA1B116BCCEE10064D0DA /* MainStoryboard.storyboard in Resources */,
 				FCCEAAF416BCE53D00317762 /* overlaygraphic.png in Resources */,
 				FCCEAAF516BCE53D00317762 /* scanbutton.png in Resources */,
+				FCCEAAF816BCECA600317762 /* eng.traineddata in Resources */,
+				FCCEAAF916BCECA600317762 /* sample1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
