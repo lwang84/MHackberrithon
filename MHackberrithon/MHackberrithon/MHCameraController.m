@@ -45,11 +45,11 @@
     picker.allowsEditing = YES;
 	
 	// Hide the controls:
-	picker.showsCameraControls = NO;
+	picker.showsCameraControls = YES;
 	picker.navigationBarHidden = YES;
 	
 	// Make camera view full screen:
-	picker.wantsFullScreenLayout = YES;
+	picker.wantsFullScreenLayout = NO;
 	picker.cameraViewTransform = CGAffineTransformScale(picker.cameraViewTransform, CAMERA_TRANSFORM_X, CAMERA_TRANSFORM_Y);
 	
 	// Insert the overlay:
